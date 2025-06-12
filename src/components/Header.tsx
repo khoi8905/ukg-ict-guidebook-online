@@ -21,17 +21,17 @@ export const Header = () => {
           </div>
           
           <div className="bg-white rounded-xl p-6 shadow-md border border-emerald-100">
-            <h3 className="font-bold text-slate-800 text-lg mb-2">2. Ujian Teknikal</h3>
+            <h3 className="font-bold text-slate-800 text-lg mb-2">2. Ujian Teknikal Kognitif</h3>
             <p className="text-slate-600 mb-3">Proyek ICT (1 Jam) dengan Pengawasan Zoom</p>
             <p className="text-emerald-700 text-sm font-medium">
               Tanggal Ujian: 7 Juli 2025<br />
-              Dibagi 2 Sesi
+              Dibagi 2 Sesi<br />
+              Lokasi: Dari lokasi masing-masing (online)
             </p>
           </div>
         </div>
         
-        <div className="text-center space-y-2">
-          <p className="text-slate-600">Lokasi Ujian Teknikal: Dari lokasi masing-masing (online)</p>
+        <div className="text-center">
           <p className="text-2xl font-bold text-slate-800">
             Total Peserta: <span className="text-blue-700">64 Guru</span>
           </p>
