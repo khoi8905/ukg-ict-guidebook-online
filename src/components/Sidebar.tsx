@@ -18,10 +18,10 @@ export const Sidebar = ({
   const navigation = [
     { id: 'overview', name: 'Gambaran Umum', icon: Info },
     { id: 'materials', name: 'Materi Ujian', icon: Book },
-    { id: 'video-presentation', name: 'Tahap 1 (Video)', icon: Award },
+    { id: 'video-presentation', name: 'Tahap 1 (Materi+Video)', icon: Award },
     { id: 'project-exam', name: 'Tahap 2 (Proyek)', icon: Wrench },
     { id: 'scoring', name: 'Penilaian', icon: BarChart3 },
-    { id: 'preparation', name: 'Persiapan', icon: ClipboardList },
+    { id: 'preparation', name: 'Persiapan Peserta', icon: ClipboardList },
     { id: 'rules', name: 'Tata Tertib', icon: Gavel },
     { id: 'schedule', name: 'Jadwal Ujian', icon: Calendar }
   ];
@@ -53,7 +53,7 @@ export const Sidebar = ({
           {/* Logo */}
           <div className="text-center mb-8 pb-6 border-b border-slate-700">
             <h1 className="text-2xl font-bold text-white mb-2">UKG Guru ICT</h1>
-            <p className="text-slate-300 text-sm">Petunjuk Teknis Online</p>
+            <p className="text-slate-300 text-sm">Petunjuk Teknis Pelaksanaan</p>
           </div>
 
           {/* Navigation */}

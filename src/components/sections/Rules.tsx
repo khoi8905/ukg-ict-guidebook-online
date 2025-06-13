@@ -4,11 +4,11 @@ import { SectionHeader } from '@/components/SectionHeader';
 
 export const Rules = () => {
   const rules = [
-    'Peserta wajib mengumpulkan video presentasi sesuai jadwal yang telah ditetapkan (maksimal 21 Juni 2025 pukul 14.00 WIB)',
+    'Peserta wajib mengumpulkan materi (PDF only) & video presentasi sesuai jadwal yang telah ditetapkan (maksimal 21 Juni 2025 pukul 14.00 WIB)',
     'Peserta wajib mengikuti ujian proyek sesuai jadwal yang telah ditetapkan',
     'Peserta wajib bergabung dengan link Zoom 10-15 menit sebelum waktu ujian proyek dimulai',
     'Selama sesi pengerjaan proyek, peserta wajib mengaktifkan kamera dan mikrofon (jika diminta), serta memastikan area kerja terlihat jelas',
-    'DILARANG melakukan joki atau meminta bantuan pihak lain untuk mengerjakan proyek',
+    'DILARANG menggunakan joki atau meminta bantuan pihak lain untuk mengerjakan proyek',
     'DILARANG menggunakan tools AI generatif untuk membantu pengerjaan proyek',
     'Apabila terjadi kendala teknis, segera laporkan kepada pengawas ujian',
     'Pelanggaran terhadap tata tertib ini akan mengakibatkan diskualifikasi'

@@ -8,7 +8,7 @@ export const Materials = () => {
       level: 'SD',
       icon: GraduationCap,
       color: 'blue',
-      items: ['Scratch Jr', 'Scratch', 'IoT Arduino (menggunakan Code Block)']
+      items: ['Scratch Jr', 'Scratch', 'IoT Arduino (Thinkercad)']
     },
     {
       level: 'SMP',

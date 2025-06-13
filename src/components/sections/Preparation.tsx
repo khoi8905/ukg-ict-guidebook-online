@@ -18,7 +18,7 @@ export const Preparation = () => {
     },
     {
       title: 'Aplikasi/Software',
-      description: 'Pastikan sudah menginstal semua aplikasi/software yang diperlukan sesuai materi jenjang Anda (Scratch Desktop, Arduino IDE, Construct 3, XAMPP/Laragon, dsb.)'
+      description: 'Pastikan sudah menginstal semua aplikasi/software yang diperlukan sesuai materi jenjang Anda (Browser, Scratch Jr, Arduino IDE, Construct 3, XAMPP/Laragon, dsb.)'
     },
     {
       title: 'Penguasaan Materi',

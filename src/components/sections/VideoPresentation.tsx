@@ -10,7 +10,7 @@ export const VideoPresentation = () => {
       <div className="space-y-6">
         <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
           <p className="text-slate-700 text-lg">
-            <strong className="text-slate-800">Durasi Video:</strong> 20 menit (inti materi saja)<br />
+            <strong className="text-slate-800">Durasi Video:</strong> 20 menit (Opening singkat, inti materi, refleksi, penutup)<br />
             <strong className="text-slate-800">Batas Pengumpulan:</strong> 16-21 Juni 2025, Maksimal 21 Juni 2025 pukul 14.00 WIB
           </p>
         </div>
@@ -45,21 +45,37 @@ export const VideoPresentation = () => {
             <ul className="space-y-2 text-slate-700">
               <li className="flex items-start">
                 <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0" />
-                Siapkan materi presentasi dalam format PDF
+                Siapkan materi presentasi (bisa PPT, Canva, dll), asal bisa diconvert ke PDF untuk pengumpulan tugas
               </li>
               <li className="flex items-start">
                 <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0" />
-                Rekam video mengajar secara online
+                Rekam video mengajar secara online menggunakan materi yang disiapkan
               </li>
               <li className="flex items-start">
                 <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0" />
-                Upload ke YouTube dengan status unlisted
+                Boleh share screen project & materi lain yang diperlukan saat menjelaskan materi
+              </li>
+              <li className="flex items-start">
+                <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0" />
+                Video bukan mengajar di dalam kelas, tapi mengajar secara online layaknya webinar
+              </li>
+              <li className="flex items-start">
+                <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0" />
+                Ajak 2-3 guru lain bergabung sebagai peserta/siswa
+              </li>
+              <li className="flex items-start">
+                <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0" />
+                Upload ke YouTube dengan status unlisted, simpan linknya
+              </li>
+              <li className="flex items-start">
+                <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0" />
+                Upload Materi (kami hanya menerima PDF) & Link Video Youtube ke drive yang kami siapkan
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-200">
+        {/* <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-200">
           <h4 className="font-bold text-slate-800 text-lg mb-4 flex items-center">
             <CheckCircle2 className="w-5 h-5 mr-2 text-purple-600" />
             Hal yang Dinilai
@@ -82,29 +98,29 @@ export const VideoPresentation = () => {
               <p className="text-slate-600 text-sm">Menyampaikan inti materi dalam 20 menit</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200">
           <h4 className="font-bold text-slate-800 text-lg mb-4 flex items-center">
             <Percent className="w-5 h-5 mr-2 text-amber-600" />
-            Aspek Penilaian Video Presentasi (Bobot 40% dari Nilai Akhir)
+            Aspek Penilaian Video Presentasi (Bobot 30% dari Nilai Akhir)
           </h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-white rounded-lg p-4 shadow-sm">
-              <h5 className="font-semibold text-slate-800">Kualitas Konten (40%)</h5>
-              <p className="text-slate-600 text-sm">Kedalaman materi, relevansi dengan jenjang</p>
+              <h5 className="font-semibold text-slate-800">Kualitas Konten (Materi & Video) (30%)</h5>
+              <p className="text-slate-600 text-sm">Kedalaman materi, relevansi dengan jenjang, struktur & kejelasan materi</p>
             </div>
             <div className="bg-white rounded-lg p-4 shadow-sm">
               <h5 className="font-semibold text-slate-800">Kualitas Pedagogis (30%)</h5>
-              <p className="text-slate-600 text-sm">Metode penyampaian, interaksi</p>
+              <p className="text-slate-600 text-sm">Metode penyampaian, interaksi, cara mengajar</p>
+            </div>
+            <div className="bg-white rounded-lg p-4 shadow-sm">
+              <h5 className="font-semibold text-slate-800">Penguasaan Materi (30%)</h5>
+              <p className="text-slate-600 text-sm">Kedalaman pemahaman guru terhadap materi</p>
             </div>
             <div className="bg-white rounded-lg p-4 shadow-sm">
               <h5 className="font-semibold text-slate-800">Manajemen Waktu (10%)</h5>
               <p className="text-slate-600 text-sm">Kesesuaian dengan durasi 20 menit</p>
-            </div>
-            <div className="bg-white rounded-lg p-4 shadow-sm">
-              <h5 className="font-semibold text-slate-800">Kelengkapan Berkas (5%)</h5>
-              <p className="text-slate-600 text-sm">PDF materi dan tautan video</p>
             </div>
           </div>
         </div>
